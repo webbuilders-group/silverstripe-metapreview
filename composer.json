@@ -1,0 +1,19 @@
+{
+	"name": "webbuilders-group/silverstripe-metapreview",
+	"description": "Adds a preview of what the Metadata for the current page will look like in Googles Search Result Page",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "Metadata"],
+	"authors": [
+		{
+			"name": "Ryan McLaren",
+			"homepage": "http://webbuildersgroup.com",
+			"role": "Developer"
+		}
+	],
+
+	"require":
+	{
+		"silverstripe/framework": "3.*",
+		"composer/installers": "*"
+	}
+}
