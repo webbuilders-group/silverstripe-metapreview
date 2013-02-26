@@ -1,0 +1,24 @@
+#MetaPreview .middleColumn {
+	border: 1px solid #B3B3B3;
+	border-radius: 4px;
+	padding: 7px;
+	width: 498px;
+}
+
+#MetaPreview .middleColumn * {
+	margin: 0px;
+}
+
+#MetaPreview .middleColumn h3 {
+    color: #0e1cb3;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#MetaPreview .middleColumn .page-link {
+    color: #093;
+}
+
+#MetaPreview .middleColumn .meta-desc {
+    color: #222;    
+}
