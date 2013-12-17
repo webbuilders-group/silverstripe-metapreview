@@ -3,7 +3,7 @@
 	"description": "Adds a preview of what the Metadata for the current page will look like in Googles Search Result Page",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "Metadata"],
-    "license": "BSD-3-Clause",
+	"license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "Ryan McLaren",
@@ -16,5 +16,9 @@
 	{
 		"silverstripe/framework": "3.*",
 		"composer/installers": "*"
+	},
+
+	"support": {
+		"issues": "https://github.com/webbuilders-group/silverstripe-frontendgridfield/issues"
 	}
 }
