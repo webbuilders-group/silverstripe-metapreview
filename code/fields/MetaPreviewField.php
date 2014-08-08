@@ -51,11 +51,11 @@ class MetaPreviewField extends DatalessField {
 	 * @return {String}
 	 */
 	public function getMetaTitle(){
-	    $page = $this->getPage();
-	    
-	    if($page->Title){
-	        return $page->Title;
-	    }	    	  
+	    if($page = $this->getPage()){
+             if($page->Title){
+                return $page->Title;
+            }	  
+        }	    	     	
 	}
 	
 	/**
@@ -63,11 +63,11 @@ class MetaPreviewField extends DatalessField {
 	 * @return {String}
 	 */
 	public function getPreviewLink(){
-	    $page = $this->getPage();
-	    
-	    if($page->AbsoluteLink()){
-	        return $page->AbsoluteLink();
-	    }	    
+	    if($page = $this->getPage()){
+            if($page->AbsoluteLink()){
+                return $page->AbsoluteLink();
+            }	
+        }	    	      
 	}
 	
 	/**
@@ -75,13 +75,13 @@ class MetaPreviewField extends DatalessField {
 	 * @return {String}
 	 */
 	public function getMetaDescription(){
-	    $page = $this->getPage();
-	    
-	    if($page->MetaDescription){
-	        return $page->MetaDescription;
-	    } else {
-	        return strip_tags($page->Content);
-	    }
+	    if($page = $this->getPage()){
+            if($page->MetaDescription){
+                return $page->MetaDescription;
+            } else {
+                return strip_tags($page->Content);
+            }
+        }	    	   
 	}
 
 }
