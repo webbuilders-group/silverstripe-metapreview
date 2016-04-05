@@ -52,9 +52,11 @@ class MetaPreviewField extends DatalessField {
 	 */
 	public function getMetaTitle(){
 	    if($page = $this->getPage()){
-             if($page->Title){
+            if($page->MetaTitle){
+                return $page->MetaTitle;
+            }elseif($page->Title){
                 return $page->Title;
-            }	  
+            }          
         }	    	     	
 	}
 	
