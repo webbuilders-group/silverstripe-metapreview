@@ -6,7 +6,7 @@ Ryan McLaren (Nickname: IOTI) <ryan (at) webbuildersgroup (dot) com>
 
 ## Requirements
 
- * SilverStripe 3.1.0+
+ * SilverStripe 4+
 
 
 ## Installation & Documentation
