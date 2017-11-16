@@ -1,4 +1,12 @@
-<?php 
+<?php
+
+namespace rsmclaren\MetaPreview\Fields;
+
+use SilverStripe\Forms\DatalessField;
+use SilverStripe\SiteConfig\SiteConfig;
+use SilverStripe\View\Requirements;
+use SilverStripe\ORM\DataList;
+
 /**
  * an extension to the @see DatalessField class
  * @package fields

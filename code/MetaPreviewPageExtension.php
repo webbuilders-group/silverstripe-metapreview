@@ -1,4 +1,11 @@
-<?php 
+<?php
+
+namespace rsmclaren\MetaPreview\Extensions;
+
+use SilverStripe\ORM\DataExtension;
+use SilverStripe\Forms\FieldList;
+use rsmclaren\MetaPreview\Fields\MetaPreviewField;
+
 /**
  * an extension to the @see Page class
  * uses DataExtension to add custom fields, js etc to show
