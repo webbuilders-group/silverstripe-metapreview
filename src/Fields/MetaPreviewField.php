@@ -1,6 +1,6 @@
 <?php
 
-namespace rsmclaren\MetaPreview\Fields;
+namespace WebbuildersGroup\MetaPreview\Fields;
 
 use SilverStripe\Forms\DatalessField;
 use SilverStripe\SiteConfig\SiteConfig;
@@ -29,7 +29,7 @@ class MetaPreviewField extends DatalessField {
 		}
 		
 		//css requirements
-	    Requirements::css('metapreview/css/metapreviewfield.css');	    	   
+	    Requirements::css('webbuilders-group/silverstripe-metapreview:css/metapreviewfield.css');	    	   
 		
 		parent::__construct($name, $title);
 	}

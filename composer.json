@@ -1,7 +1,7 @@
 {
 	"name": "webbuilders-group/silverstripe-metapreview",
 	"description": "Adds a preview of what the Metadata for the current page will look like in Googles Search Result Page",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"keywords": ["silverstripe", "Metadata"],
 	"license": "BSD-3-Clause",
 	"authors": [
@@ -15,16 +15,23 @@
 	"require":
 	{
         "silverstripe/framework": "^4.0",
+		"silverstripe/vendor-plugin": "^1.0",
         "silverstripe/cms": "^4.0"
 	},
-
+    "autoload": {
+		"psr-4": {
+			"WebbuildersGroup\\MetaPreview\\": "src/"
+		}
+    },
 	"support": {
 		"issues": "https://github.com/webbuilders-group/silverstripe-metapreview/issues"
 	},
 	"extra": {
-        "installer-name": "metapreview",
 		"branch-alias": {
 			"dev-master": "2.0.x-dev"
-		}
+		},
+		"expose": [
+            "css"
+        ]
 	}
 }

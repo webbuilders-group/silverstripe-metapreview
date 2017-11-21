@@ -1,6 +1,6 @@
 <?php
 
-namespace rsmclaren\MetaPreview\Extensions;
+namespace WebbuildersGroup\MetaPreview\Extensions;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\FieldList;
