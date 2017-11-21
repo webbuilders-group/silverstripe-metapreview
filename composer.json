@@ -22,6 +22,9 @@
 		"issues": "https://github.com/webbuilders-group/silverstripe-metapreview/issues"
 	},
 	"extra": {
-        	"installer-name": "metapreview"
+        "installer-name": "metapreview",
+		"branch-alias": {
+			"dev-master": "2.0.x-dev"
+		}
 	}
 }
