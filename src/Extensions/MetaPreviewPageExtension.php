@@ -4,7 +4,7 @@ namespace WebbuildersGroup\MetaPreview\Extensions;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\FieldList;
-use rsmclaren\MetaPreview\Fields\MetaPreviewField;
+use WebbuildersGroup\MetaPreview\Fields\MetaPreviewField;
 
 /**
  * an extension to the @see Page class
