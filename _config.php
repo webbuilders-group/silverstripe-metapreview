@@ -1,6 +1,4 @@
-<?php 
+<?php
 
 //Object extensions
-Object::add_extension('Page', 'MetaPreviewPageExtension');
-
-?>
+SS_Object::add_extension('Page', 'MetaPreviewPageExtension');
