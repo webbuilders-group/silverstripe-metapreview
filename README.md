@@ -2,7 +2,7 @@
 
 ## Maintainer Contact
 
-Ryan McLaren (Nickname: IOTI) <ryan (at) webbuildersgroup (dot) com>
+* Ed Chipman ([UndefinedOffset](https://github.com/UndefinedOffset))
 
 ## Requirements
 
