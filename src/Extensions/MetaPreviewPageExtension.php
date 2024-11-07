@@ -1,12 +1,12 @@
 <?php
 namespace WebbuildersGroup\MetaPreview\Extensions;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
 use WebbuildersGroup\MetaPreview\Fields\MetaPreviewField;
 
-class MetaPreviewPageExtension extends DataExtension
-{    
+class MetaPreviewPageExtension extends Extension
+{
     /**
      * updates the fields used in the CMS
      * @param {FieldList}
