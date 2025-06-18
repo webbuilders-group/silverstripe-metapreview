@@ -6,7 +6,7 @@
 
 ## Requirements
 
- * SilverStripe 4+
+ * SilverStripe ^4|^5|^6
 
 
 ## Installation & Documentation
